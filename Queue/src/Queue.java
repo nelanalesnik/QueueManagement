@@ -326,7 +326,7 @@ public class Queue {
 	            try {
 	            	
 	            	Writer output;
-	         	    output = new BufferedWriter(new FileWriter("contacts.txt", true));
+	         	    output = new BufferedWriter(new FileWriter("studentslist.txt", true));
 	            output.append(System.lineSeparator()+customer.numerek + "\t" + customer.name + "\t" + customer.surname + "\t" + customer.index + "\t"  + customer.tryb) ;
 	         
 	      		output.close();
